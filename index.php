@@ -1,7 +1,7 @@
 <? /* Main php file */ 
 session_start() ;
 
-require("includes/class.php") ;
+require("./includes/class.php") ;
 
 // Look for existing user name
 if(isset($_SESSION["username"])){
